@@ -1,17 +1,17 @@
 #base image
-FROM node
+FROM node:alpine
 
 #set wrking directory
-RUN mkdir /usr/src/app
+WORKDIR /app
 
-#coping all files from current directory to docker
-COPY . /usr/src/app
-
-#add `usr/src/app/node_modules/.bin` to $PATH
-ENV PATH /usr/src/app/.bin:$PATH
+#coping package.json
+COPY package.json .
 
 #install and cached app dependencies
-RUN yarn
+RUN npm install
+
+#coping all files from current directory to docker
+COPY . .
 
 #start app
 CMD ["npm","start"]
