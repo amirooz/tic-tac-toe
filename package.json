@@ -1,14 +1,12 @@
 {
   "name": "tic-tac-toe",
   "version": "0.1.0",
+  "description": "Two users play a game of tic-tac-toe on the same computer",
   "private": true,
   "dependencies": {
-    "emotion": "^10.0.17",
     "jquery": "^3.4.1",
-    "materialize-css": "^1.0.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-particles-js": "^2.7.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0"
   },
