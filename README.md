@@ -27,7 +27,8 @@ Runs the app in the development mode.<br>
 **  http://localhost:3000 **
 
 ## Screenshots
-<img src="public/screenshots/screenshot.png" alt="">
+<img src="public/screenshots/screenshot-1.png" alt="">
+<img src="public/screenshots/screenshot-2.png" alt="">
 
 ## License
 Tic-Tac-Toe game is permissive software licensed under the [MIT license](https://opensource.org/licenses/MIT).
