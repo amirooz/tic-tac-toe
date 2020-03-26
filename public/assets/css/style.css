@@ -1,0 +1,42 @@
+.quality {
+    background-image: url(../img/bg-key-qualit_lg.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    padding: 50px 0;
+}
+.effectiveness {
+    padding: 130px 0;
+}
+/* .contact .header {
+    background-image: url(../img/bg-say-hello-to-us_lg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right;
+    padding: 130px 0;
+} */
+.about .header {
+    background-image: url(../img/about-us.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: cover;
+    padding: 200px 0;
+}
+.contact .header {
+    background-image: url(../img/contact-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 150px 0;
+}
+.mb-40 {
+    margin-bottom: 40px;
+}
+.p-30 {
+    padding: 130px;
+}
+::selection {
+    background: #eeeeee; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+    background: #eeeeee; /* Gecko Browsers */
+}
+
