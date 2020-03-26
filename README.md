@@ -1,5 +1,5 @@
 # tic-tac-toe
-Two users play a game of tick-tack-toe on the same computer
+Two users play a game of tic-tac-toe on the same computer
 
 ## Installation and use
 
