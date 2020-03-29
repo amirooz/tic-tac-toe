@@ -26,7 +26,7 @@ export class Board extends Component {
                     {this.renderSquare(7)}
                     {this.renderSquare(8)}
                 </div>
-                
+
             </div>
         )
     }

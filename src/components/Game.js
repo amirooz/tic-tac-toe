@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Board from './Board';
+import PropTypes from 'prop-types'
 
 export class Game extends Component {
     constructor(props){
@@ -60,19 +61,23 @@ export class Game extends Component {
         }
 
         return (
-            <div className="game">
+            <div className="game" data-test="gameComponent">
                 <div className="game-board">
-                    <Board onClick={(i)=>this.handdleClick(i)} squares={current.squares} />
+                    <Board onClick={(i)=>this.handdleClick(i)} squares={current.squares} data-test="boardComponent" />
                 </div>
 
                 <div className="game-info">
                     <div>{status}</div>
                     <ul>{moves}</ul>
                 </div>
-                
+
             </div>
         )
     }
+}
+
+Game.propTypes = {
+    checkWinner: PropTypes.func
 }
 
 export default Game
